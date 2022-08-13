@@ -9,7 +9,7 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 })
 export class TaskItemComponent implements OnInit {
 
-faTimes = faTimes;
+  faTimes = faTimes;
   @Input() task:Task = TASKS[0];
 
   constructor() { }
